@@ -338,7 +338,7 @@ line-height: 31.2px !important; */
 }
 
 .parent a:after {
-    font-family: 'Elegant Icon Font';
+    font-family: 'Elegant-Icon-Font', 'ETmodules';
     content: '3' !important;
     font-size: 28px;
     top: 6px;
@@ -349,7 +349,7 @@ line-height: 31.2px !important; */
 
 @media only screen and (max-width:980px) {
     .parent a:after {
-        font-family: 'Elegant Icon Font';
+        font-family: 'Elegant-Icon-Font', 'ETmodules';
         content: '5' !important;
         position: relative;
         right: 0px !important;
@@ -421,7 +421,7 @@ line-height: 31.2px !important; */
 
 /*.main-menu a:after { 
   content: ' 3' !important;
-  font-family:'Elegant Icon Font' !important;
+  font-family: 'Elegant-Icon-Font', 'ETmodules' !important;
 }*/
 
 li.main-menu.current-menu-item a {
@@ -684,7 +684,7 @@ a.menu-item:hover {
 
 .wpml-ls-legacy-dropdown-click .wpml-ls-current-language::after {
     content: "3"!important;
-    font-family: 'Elegant Icon Font'!important;
+    font-family: 'Elegant-Icon-Font', 'ETmodules' !important;
     font-size: 30px!important;
     font-weight: 400;
     position: absolute !important;
@@ -785,7 +785,7 @@ a.menu-item:hover {
 .wpml-custom-module .wpml-ls::after {
     /*
     content: "3"!important;
-    font-family: 'Elegant Icon Font' !important;
+    font-family: 'Elegant-Icon-Font', 'ETmodules' !important;
     font-size: 25px!important;
     font-weight: 400;
     position: absolute;
@@ -876,7 +876,7 @@ a.menu-item:hover {
 
 .wpml-ls-legacy-dropdown:after {
     content: "3" !important;
-    font-family: 'Elegant Icon Font' !important;
+    font-family: 'Elegant-Icon-Font', 'ETmodules' !important;
     font-size: 32px !important;
     position: absolute;
     top: 5px !important;
@@ -970,7 +970,7 @@ body {
 
 /*.main-menu a:after { 
   content: ' 3' !important;
-  font-family:'Elegant Icon Font' !important;
+  font-family: 'Elegant-Icon-Font', 'ETmodules' !important;
 }*/
 
 li.current-menu-item a {
