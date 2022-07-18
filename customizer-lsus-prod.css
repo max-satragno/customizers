@@ -2,9 +2,9 @@
 
 h1,
 h1 span {
-    font-size: 56px;
-    line-height: 64px;
-    font-family: 'SwiftJustice', 'Swift Justice', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 56px !important;
+    line-height: 64px !important;
+    font-family: 'SwiftJustice', 'Swift Justice', Helvetica, Arial, Lucida, sans-serif !important;
 }
 
 h2,
@@ -12,10 +12,12 @@ h2 span,
 .vertical-details-tab h2,
 .vertical-details-tab h2 span,
 .vertical-details-tab-m h2,
-.vertical-details-tab-m h2 span {
+.vertical-details-tab-m h2 span,
+.et_pb_module.dica_divi_carousel .dica_divi_carouselitem .dica-item-content h2.item-subtitle,
+.et_pb_promo h2 {
     font-family: 'Best Defense Bold', Helvetica, Arial, Lucida, sans-serif !important;
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 40px !important;
+    line-height: 48px !important;
 }
 
 h3,
@@ -24,10 +26,12 @@ h3 span,
 .vertical-details-tab h3,
 .vertical-details-tab h3 span,
 .vertical-details-tab-m h3,
-.vertical-details-tab-m h3 span {
+.vertical-details-tab-m h3 span,
+.et_pb_module.dica_divi_carousel .dica_divi_carouselitem .dica-item-content h3.item-subtitle,
+.et_pb_promo h3 {
     font-family: 'Best Defense Bold', Helvetica, Arial, Lucida, sans-serif !important;
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 32px !important;
+    line-height: 40px !important;
 }
 
 h4,
@@ -35,37 +39,41 @@ h4 span,
 .vertical-details-tab h4,
 .vertical-details-tab h4 span,
 .vertical-details-tab-m h4,
-.vertical-details-tab-m h4 span {
+.vertical-details-tab-m h4 span,
+.et_pb_module.dica_divi_carousel .dica_divi_carouselitem .dica-item-content h4.item-subtitle,
+.et_pb_promo h4 {
     font-family: 'Best Defense Bold', Helvetica, Arial, Lucida, sans-serif !important;
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 28px !important;
+    line-height: 36px !important;
 }
 
 @media only screen and (max-width: 981px) {
     h1,
     h1 span {
-        font-size: 48px;
-        line-height: 57px;
-        font-family: 'SwiftJustice', 'Swift Justice', Helvetica, Arial, Lucida, sans-serif;
+        font-size: 48px !important;
+        line-height: 57px !important;
+        font-family: 'SwiftJustice', 'Swift Justice', Helvetica, Arial, Lucida, sans-serif !important;
     }
 }
 
 @media only screen and (max-width: 767px) {
     h1,
     h1 span {
-        font-size: 40px;
-        line-height: 48px;
-        font-family: 'SwiftJustice', 'Swift Justice', Helvetica, Arial, Lucida, sans-serif;
+        font-size: 40px !important;
+        line-height: 48px !important;
+        font-family: 'SwiftJustice', 'Swift Justice', Helvetica, Arial, Lucida, sans-serif !important;
     }
     h2,
     h2 span,
     .vertical-details-tab h2,
     .vertical-details-tab h2 span,
     .vertical-details-tab-m h2,
-    .vertical-details-tab-m h2 span {
+    .vertical-details-tab-m h2 span,
+    .et_pb_module.dica_divi_carousel .dica_divi_carouselitem .dica-item-content h2.item-subtitle,
+    .et_pb_promo h2 {
         font-family: 'Best Defense Bold', Helvetica, Arial, Lucida, sans-serif !important;
-        font-size: 32px;
-        line-height: 40px;
+        font-size: 32px !important;
+        line-height: 40px !important;
     }
     h3,
     h3 span,
@@ -73,20 +81,24 @@ h4 span,
     .vertical-details-tab h3,
     .vertical-details-tab h3 span,
     .vertical-details-tab-m h3,
-    .vertical-details-tab-m h3 span {
+    .vertical-details-tab-m h3 span,
+    .et_pb_module.dica_divi_carousel .dica_divi_carouselitem .dica-item-content h3.item-subtitle,
+    .et_pb_promo h3 {
         font-family: 'Best Defense Bold', Helvetica, Arial, Lucida, sans-serif !important;
-        font-size: 26px;
-        line-height: 34px;
+        font-size: 26px !important;
+        line-height: 34px !important;
     }
     h4,
     h4 span,
     .vertical-details-tab h4,
     .vertical-details-tab h4 span,
     .vertical-details-tab-m h4,
-    .vertical-details-tab-m h4 span {
+    .vertical-details-tab-m h4 span,
+    .et_pb_module.dica_divi_carousel .dica_divi_carouselitem .dica-item-content h4.item-subtitle,
+    .et_pb_promo h4 {
         font-family: 'Best Defense Bold', Helvetica, Arial, Lucida, sans-serif !important;
-        font-size: 24px;
-        line-height: 32px;
+        font-size: 24px !important;
+        line-height: 32px !important;
     }
 }
 
@@ -111,7 +123,8 @@ h4 span,
 
 /* Price inside carousel */
 
-.dica-container .et_pb_module .dica-item .dica-item-content .content p.price-in-carousel {
+.dica-container .et_pb_module .dica-item .dica-item-content .content p.price-in-carousel,
+p.price-in-carousel {
     font-size: 36px!important;
     line-height: 46px!important;
     font-family: 'Swift Justice', Helvetica, Arial, Lucida, sans-serif!important;
@@ -119,7 +132,8 @@ h4 span,
 }
 
 @media only screen and (max-width: 767px) {
-    .dica-container .et_pb_module .dica-item .dica-item-content .content p.price-in-carousel {
+    .dica-container .et_pb_module .dica-item .dica-item-content .content p.price-in-carousel,
+    p.price-in-carousel {
         font-size: 28px!important;
         line-height: 38px!important;
         font-family: 'Swift Justice', Helvetica, Arial, Lucida, sans-serif!important;
