@@ -2565,7 +2565,7 @@ screen and (min-width:40em) {
     color: #222222;
     display: flex;
     align-items: center;
-    width: 190px;
+    width: 230px;
     justify-content: space-between;
 }
 
@@ -2809,7 +2809,13 @@ td.sticky-header {
 
 @media only screen and (min-width: 981px) {
     .pricing-table tr:nth-child(n+3) td:nth-child(1) {
-        word-break: break-word;
+        /* word-break: break-word; */
+    }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1300px) {
+    table.pricing-table td:nth-child(1) {
+        width: 30% !important;
     }
 }
 
@@ -2858,7 +2864,7 @@ td.sticky-header {
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     table.pricing-table td:nth-child(1),
     table.pricing-table td:nth-child(2),
     table.pricing-table td:nth-child(3),
@@ -2877,6 +2883,10 @@ td.sticky-header {
     .pricing-row span {
         font-size: 16px;
         line-height: 24px;
+    }
+    .pricing-table .benefit-cell h4 {
+        font-size: 16px !important;
+        line-height: 24px !important;
     }
     .pricing-table ul li {
         word-break: break-word;
